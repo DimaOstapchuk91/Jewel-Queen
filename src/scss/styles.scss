@@ -1,18 +1,25 @@
-@import './header.scss';
-@import './vite-promo.scss';
-
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: var($_main_text_color);
+  background-color: var($_main_bg_color);
 }
+// common
+
+@import './common/vars';
+@import './common/reset';
+@import './common/mixins';
+@import './common/breakpoints';
+
+// base
+
+@import './base';
+//layouts
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/gallery';
+@import './layouts/about-us';
+@import './layouts/reviews';
+@import './layouts/features';
+@import './layouts/footer';
+@import './layouts/policy';
+@import './layouts/terms';

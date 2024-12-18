@@ -1,0 +1,42 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.section {
+  padding: 24px 0; // за секцію поки не розумію, поговорим з дизайнером розберемся, скрізь різна відстань
+
+  @include media(desktop) {
+    padding: 48px 0;
+  }
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  @include media(desktop) {
+    max-width: 1200px;
+    padding: 0 48px;
+  }
+}
+
+.title {
+  color: var($_main_text_color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.1em;
+
+  // це для всіх заголовків секцій, наче скрізь однакові
+  @include media(desktop) {
+    font-size: 36px;
+  }
+}
