@@ -1,0 +1,55 @@
+/* ---------------------------FOOTER STYLES------------------------------------------ */
+
+.background-image {
+  background-image: url(../../img/footer-img/footer-background-layer3.svg),
+    url(../../img/footer-img/footer-background-layer2.svg),
+    url(../../img/footer-img/footer-background-layer1.svg);
+  height: 200px;
+  width: 100%;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.footer-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-text-wrapper {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.footer-span,
+.footer-link {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-decoration: underline;
+
+  @include media(desktop) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+/* ==========================DEKSTOP STYLES==================================== */
