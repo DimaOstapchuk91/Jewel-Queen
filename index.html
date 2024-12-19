@@ -12,13 +12,55 @@
     />
     
     <title>Jewel-Queen</title>
-    <script type="module" crossorigin src="/Jewel-Queen/assets/main-c3674f56.js"></script>
-    <link rel="stylesheet" href="/Jewel-Queen/assets/main-30e267db.css">
+    <script type="module" crossorigin src="/Jewel-Queen/assets/main-29c6876e.js"></script>
+    <link rel="stylesheet" href="/Jewel-Queen/assets/main-0bd1dd17.css">
   </head>
   <body>
-    <p>1. Header</p>
-<a href="/privacy-policy.html">Privacy Policy link</a>
-<a href="/terms-and-conditions.html">terms &amp; condition</a>
+    <header class="container">
+  <div class="header-wraper">
+    <div class="header-logo-wraper">
+      <a href="./index.html"
+        ><img
+          src="/Jewel-Queen/assets/logo-a0dd31be.svg"
+          alt="logo"
+          class="header-logo"
+          width="55"
+          height="55"
+        />
+      </a>
+    </div>
+    <nav class="header-list-wraper">
+      <ul class="header-list">
+        <li class="header-list-item">
+          <a class="header-list-link" href="./index.html">Home</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#">Gallery</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#">About Us</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#">Reviews</a>
+        </li>
+        <li class="header-list-item">
+          <a class="header-list-link" href="#">Features</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-btn-wraper">
+      <button class="header-btn-burger js-open-menu cordinate">
+        <img
+          src="../img/header-img/burger-menu.svg"
+          alt="logo"
+          class="header-burger-img"
+          width="30"
+          height="30"
+        />
+      </button>
+    </div>
+  </div>
+</header>
 
     <main>
       <!-- Hero -->
@@ -50,6 +92,71 @@
     </div>
   </div>
 </footer>
+
+
+    <!-- modal -->
+    <div class="backdrop js-menu-container" id="mobile-menu">
+  <div class="mob-wrap">
+    <button
+      class="mob-btn-close js-close-menu"
+      aria-label="button-menu-close"
+      type="button"
+    >
+      <img
+        src="../img/header-img/burger-menu.svg"
+        width="30"
+        height="30"
+        alt="burger-icon"
+        class="btn-close"
+      />
+    </button>
+    <nav class="mob-menu">
+      <ul class="mob-list">
+        <li class="mob-item">
+          <a href="#" aria-label="home-link" class="mob-link js-header-link"
+            >Home</a
+          >
+        </li>
+        <li class="mob-item">
+          <a href="#" aria-label="gallery-link" class="mob-link js-header-link"
+            >Gallery</a
+          >
+        </li>
+        <li class="mob-item">
+          <a href="#" aria-label="about-us-link" class="mob-link js-header-link"
+            >About Us</a
+          >
+        </li>
+        <li class="mob-item">
+          <a href="#" aria-label="reviews-link" class="mob-link js-header-link"
+            >Reviews</a
+          >
+        </li>
+        <li class="mob-item">
+          <a href="#" aria-label="features-link" class="mob-link js-header-link"
+            >Features</a
+          >
+        </li>
+        <li class="mob-item">
+          <a
+            href="#"
+            aria-label="privacy-policy-link"
+            class="mob-link js-header-link"
+            >Privacy Policy</a
+          >
+        </li>
+        <li class="mob-item">
+          <a
+            href="#"
+            aria-label="terms-conditions-link"
+            class="mob-link js-header-link"
+            >Terms &amp; Conditions</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
 
     
