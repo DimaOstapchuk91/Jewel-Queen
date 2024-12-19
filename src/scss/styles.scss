@@ -1,7 +1,7 @@
 :root {
   font-family: 'Montserrat Alternates', sans-serif;
-  color: var($_main_text_color);
-  background-color: var($_main_bg_color);
+  color: $_main_text_color;
+  background-color: $_main_bg_color;
 }
 // common
 
@@ -23,3 +23,6 @@
 @import './layouts/footer';
 @import './layouts/policy';
 @import './layouts/terms';
+
+// modal
+@import './layouts/modal_header';
