@@ -1,0 +1,62 @@
+.download-button {
+  display: flex;
+  width: 274px;
+  height: 60px;
+
+  padding: 6px 36px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #ffc300 0%, #ff6f00 60%) bottom
+      right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, #ffc300 0%, #ff6f00 60%) bottom left / 50%
+      50% no-repeat,
+    linear-gradient(to top left, #ffc300 0%, #ff6f00 60%) top left / 50% 50%
+      no-repeat,
+    linear-gradient(to top right, #ffc300 0%, #ff6f00 60%) top right / 50% 50%
+      no-repeat;
+
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-text-big {
+  font-size: 20px;
+}
+
+.btn-icon {
+  margin-right: 30px;
+}
+
+.btn-text-small {
+  font-size: 14px;
+}
+
+.download-button:hover,
+.download-button:focus {
+  border-color: rgba(255, 129, 1, 0.5);
+  background: linear-gradient(
+        to bottom right,
+        #ffc300 10%,
+        #fff600 35%,
+        #ff6f00 80%
+      )
+      bottom right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, #ffc300 10%, #fff600 35%, #ff6f00 80%)
+      bottom left / 50% 50% no-repeat,
+    linear-gradient(to top left, #ffc300 10%, #fff600 35%, #ff6f00 80%) top left /
+      50% 50% no-repeat,
+    linear-gradient(to top right, #ffc300 10%, #fff600 35%, #ff6f00 80%) top
+      right / 50% 50% no-repeat;
+}
+
+.download-button:active {
+  border: 2px solid rgba(255, 129, 1, 0.5);
+  background: linear-gradient(to bottom right, #fff600 50%, #ff6f00 90%) bottom
+      right / 50% 50% no-repeat,
+    linear-gradient(to bottom left, #fff600 50%, #ff6f00 90%) bottom left / 50%
+      50% no-repeat,
+    linear-gradient(to top left, #fff600 50%, #ff6f00 90%) top left / 50% 50%
+      no-repeat,
+    linear-gradient(to top right, #fff600 50%, #ff6f00 90%) top right / 50% 50%
+      no-repeat;
+}
