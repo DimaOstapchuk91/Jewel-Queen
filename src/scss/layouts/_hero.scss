@@ -1,14 +1,13 @@
-.hero {
+.hero-wrapper {
+  display: flex;
+  position: relative;
+  height: 324px;
   padding-top: 100px;
 
   @include media(desktop) {
     padding-top: 167px;
+    height: 695px;
   }
-}
-
-.hero-wrapper {
-  display: flex;
-  position: relative;
 }
 
 .hero-text-button-container {
@@ -52,8 +51,8 @@
   @include media(desktop) {
     display: block;
     position: absolute;
-    right: -196px;
-    bottom: -186px;
+    right: -162px;
+    top: 87px;
   }
 }
 
