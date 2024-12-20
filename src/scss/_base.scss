@@ -34,6 +34,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1.1em;
+  text-align: center;
 
   // це для всіх заголовків секцій, наче скрізь однакові
   @include media(desktop) {
