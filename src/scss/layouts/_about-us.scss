@@ -1,3 +1,10 @@
+.about-us-section {
+  margin-bottom: 70px;
+  @include media(desktop) {
+    margin-bottom: 10px;
+  }
+}
+
 .desk-title {
   margin-bottom: 0;
 }
