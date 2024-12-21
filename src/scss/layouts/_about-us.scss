@@ -1,7 +1,9 @@
 .about-us-section {
   margin-bottom: 70px;
+  scroll-margin-top: 60px;
   @include media(desktop) {
     margin-bottom: 10px;
+    scroll-margin-top: 140px;
   }
 }
 
