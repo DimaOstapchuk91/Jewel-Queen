@@ -7,7 +7,7 @@
 }
 
 .background-image {
-  background-image: url(../../img/footer-img/footer-background-mobile.png);
+  background-image: url(../img/footer-img/footer-background-mobile.png);
   height: 94px;
   width: 100%;
   background-size: contain;
@@ -21,11 +21,11 @@
   @media screen and (min-resolution: 192dpi),
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
-    background-image: url(../../img/footer-img/footer-background-mobile@2x.png);
+    background-image: url(../img/footer-img/footer-background-mobile@2x.png);
   }
 
   @include media(desktop) {
-    background-image: url(../../img/footer-img/footer-background-descktop.png);
+    background-image: url(../img/footer-img/footer-background-descktop.png);
     background-size: cover;
     height: 238px;
     width: 100%;
@@ -34,7 +34,7 @@
     @media screen and (min-resolution: 192dpi),
       (min-resolution: 2dppx),
       (min-device-pixel-ratio: 2) {
-      background-image: url(../../img/footer-img/footer-background-descktop@2x.png);
+      background-image: url(../img/footer-img/footer-background-descktop@2x.png);
     }
   }
 }
