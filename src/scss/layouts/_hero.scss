@@ -45,6 +45,14 @@
   }
 }
 
+#display-none {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+  }
+}
+
 .hero-image {
   display: none;
 

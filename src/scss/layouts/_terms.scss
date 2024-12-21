@@ -1,0 +1,7 @@
+.terms {
+  padding: 32px 0;
+
+  @include media(desktop) {
+    padding: 56px 0;
+  }
+}
