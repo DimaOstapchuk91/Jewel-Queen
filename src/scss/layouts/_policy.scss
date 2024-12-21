@@ -1,0 +1,76 @@
+.policy {
+  padding: 32px 0;
+
+  @include media(desktop) {
+    padding: 56px 0;
+  }
+}
+
+.back-home-link {
+  font-size: 15px;
+  line-height: 1.2;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.policy-header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+}
+
+.policy-sub-header {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 2;
+
+  @include media(desktop) {
+    font-size: 36px;
+    line-height: 1.25;
+  }
+}
+
+.paragraph {
+  margin-bottom: 30px;
+  font-size: 14px;
+
+  @include media(desktop) {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}
+
+.no-margin-paragraph {
+  font-size: 14px;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.policy-list {
+  font-size: 14px;
+  list-style-type: disc;
+  margin-left: 22px;
+  margin-bottom: 30px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+  }
+}
+
+.policy-link {
+  text-decoration: underline;
+}

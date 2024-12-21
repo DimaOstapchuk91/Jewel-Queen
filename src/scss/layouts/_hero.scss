@@ -1,0 +1,65 @@
+.hero-wrapper {
+  display: flex;
+  position: relative;
+  height: 324px;
+  padding-top: 100px;
+
+  @include media(desktop) {
+    padding-top: 167px;
+    height: 695px;
+  }
+}
+
+.hero-text-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-basis: 272px;
+
+  @include media(desktop) {
+    flex-basis: 728px;
+    gap: 38px;
+  }
+}
+
+.hero-title {
+  font-size: 32px;
+  line-height: 36px;
+  color: #ffffff;
+
+  @include media(desktop) {
+    font-size: 64px;
+    line-height: 90px;
+  }
+}
+
+.hero-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+
+  @include media(desktop) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+#display-none {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+  }
+}
+
+.hero-image {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    right: -162px;
+    top: 87px;
+  }
+}
