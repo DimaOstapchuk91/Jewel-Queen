@@ -23,13 +23,13 @@
   padding: 12px;
   border-radius: 10px;
 
-  background: linear-gradient(to bottom right, #e5bb4a 0%, #07776e 50%) bottom
-      right / 50% 50% no-repeat,
-    linear-gradient(to bottom left, #e5bb4a 0%, #07776e 50%) bottom left / 50%
+  background: linear-gradient(to bottom right, #e5bb4a 0%, #07776e 60%) bottom
+      right / 51% 50% no-repeat,
+    linear-gradient(to bottom left, #e5bb4a 0%, #07776e 60%) bottom left / 50%
       50% no-repeat,
-    linear-gradient(to top left, #e5bb4a 0%, #07776e 50%) top left / 50% 50%
+    linear-gradient(to top left, #e5bb4a 0%, #07776e 60%) top left / 50% 50%
       no-repeat,
-    linear-gradient(to top right, #e5bb4a 0%, #07776e 50%) top right / 50% 50%
+    linear-gradient(to top right, #e5bb4a 0%, #07776e 60%) top right / 51% 50%
       no-repeat;
 
   @include media(desktop) {
