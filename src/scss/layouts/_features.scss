@@ -1,3 +1,10 @@
+.features-section {
+  scroll-margin-top: 60px;
+  @include media(desktop) {
+    scroll-margin-top: 140px;
+  }
+}
+
 .features-wrap {
   display: flex;
   flex-direction: column;
